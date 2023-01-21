@@ -1,0 +1,32 @@
+:root {
+  --primary: #758bfd;
+  --primary-dark: #27187e;
+  --secondary: #aeb8fe;
+  --third: #ff8600;
+  --white: #f0eff4;
+  --black: #0e0f19;
+}
+
+.appButtonDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appButtons {
+  height: 5vh;
+  width: 10vw;
+  margin-right: 10vw;
+  margin: 5vh 10vw 0 10vw;
+  cursor: pointer;
+  border: 3px var(--primary) solid;
+  background-color: var(--primary-dark);
+  color: var(--third);
+  font-size: 1.2rem;
+  border-radius: 8px;
+  font-weight: bolder;
+}
+
+.appButtons:hover {
+  opacity: 0.75;
+}

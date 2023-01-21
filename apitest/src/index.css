@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+:root {
+  --primary: #758bfd;
+  --primary-dark: #27187e;
+  --secondary: #aeb8fe;
+  --third: #ff8600;
+  --white: #f0eff4;
+  --black: #0e0f19;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: var(--primary-dark);
+  overflow: hidden;
+  background: url(./components/background.svg);
+  /* background by SVGBackgrounds.com */
+  background-position: bottom;
+}
