@@ -37,7 +37,7 @@ function Activities() {
       <ul>
         {activities.map((activity) => {
           return (
-            <li key={activity.key} className="activity" onClick={check}>
+            <li id={activity.key} className="activity" onClick={check}>
               {activity.activity}
             </li>
           );

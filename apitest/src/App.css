@@ -15,7 +15,7 @@
 
 .appButtons {
   height: 5vh;
-  width: 10vw;
+  width: 15vw;
   margin-right: 10vw;
   margin: 5vh 10vw 0 10vw;
   cursor: pointer;
@@ -29,4 +29,18 @@
 
 .appButtons:hover {
   opacity: 0.75;
+}
+
+@media (max-width: 800px) {
+  .appButtons {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 550px) {
+  .appButtons {
+    margin-right: 0vw;
+    width: 20vw;
+    font-size: 0.7rem;
+  }
 }
